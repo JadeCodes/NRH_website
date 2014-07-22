@@ -1,0 +1,163 @@
+/*   *******************************************************************************
+	FONT FAMILY
+********************************************************************************* */
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2014 Fontspring
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      exljbris Font Foundry
+ * License URL: http://www.fontspring.com/fflicense/exljbris
+ *
+ */
+@font-face {
+    font-family: 'Museo300Regular';
+    src: url('../fonts/Museo300-Regular-webfont.eot');
+    src: url('../fonts/Museo300-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Museo300-Regular-webfont.woff') format('woff'),
+         url('../fonts/Museo300-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Museo300-Regular-webfont.svg#Museo300Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+/*   *******************************************************************************
+	LOGO HEADER
+********************************************************************************* */
+img {
+	margin: 0 auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+/*   *******************************************************************************
+	NAVIGATION BAR
+********************************************************************************* */
+.navbar-default {
+	background-color: #fff;
+	border: none;
+	font-family: 'Museo300Regular';
+	font-size: 15px;
+}
+
+#navee {
+	list-style:none; 
+	margin:0; 
+	padding:0; 
+	text-align:center;
+}
+#navee li{
+	display:inline;
+}
+#navee a {
+	display:inline-block; 
+	padding:0px;
+}
+#navee a:hover,
+.current-page a {
+	background: none;
+	text-decoration: underline;
+}
+.cent-fix a {
+	color:#555a5f; 
+	font-weight: 100;
+/*	text-transform: uppercase;*/
+}
+li.cent-fix a {
+	border-right: #555a5f 1px solid; 
+	padding-top: 0; 
+	padding-bottom: 0;
+	width: 125px;
+}
+#last-nav a {
+	border: none;
+}
+
+
+/*   *******************************************************************************
+	SOCIAL
+********************************************************************************* */
+#social {
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    margin: 0 auto;
+}
+
+ul {
+	text-align: center;
+	padding: 0;
+}
+.social {
+	display: inline;
+	list-style-type: none;
+	font-size: 30px;
+	padding-right: 15px;
+}
+.social a {
+	color:#555a5f; 
+}
+.social a:hover {
+	color:#c2aec6; 
+}
+h6 {
+	color:#555a5f;
+	font-family: 'Museo300Regular'; 
+	font-size: 14px;
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 5px;
+}
+
+/*   *******************************************************************************
+	FOOTER
+********************************************************************************* */
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
+p {
+	font-family: 'Museo300Regular';
+	color:#555a5f;
+	padding-top: 10px;
+}
+
+#footertext a {
+	text-decoration: none;
+	color:#555a5f;
+	font-style: italic;
+}
+
+#footertext a:hover {
+	color:#555a5f;
+	text-decoration: none;
+	font-style: italic;
+}
