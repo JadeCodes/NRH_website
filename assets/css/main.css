@@ -57,7 +57,21 @@ img {
 	padding-bottom: 15px;
 }
 
+#hero {
+	padding-top: 0px;
+	padding-bottom: 25px;
+}
 
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+#main-text {
+	padding-left: 70px;
+	padding-right: 70px;
+	font-size: 20px;
+}
 /*   *******************************************************************************
 	NAVIGATION BAR
 ********************************************************************************* */
@@ -66,6 +80,7 @@ img {
 	border: none;
 	font-family: 'Museo300Regular';
 	font-size: 15px;
+	margin-bottom: 0;
 }
 
 #navee {
@@ -140,9 +155,11 @@ h6 {
 	FOOTER
 ********************************************************************************* */
       /* Set the fixed height of the footer here */
-      #push,
+      /*#push,*/
       #footer {
         height: 60px;
+/*        padding-right: 70px;
+        padding-left: 70px;*/
       }
 p {
 	font-family: 'Museo300Regular';
