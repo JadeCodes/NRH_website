@@ -40,6 +40,8 @@ html, body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Museo300Regular';
+	font-size: 16px;
+	line-height: 26px;
 }
 
 /*   *******************************************************************************
@@ -200,7 +202,60 @@ button {
 /*   *******************************************************************************
 	SERVICES PAGE
 ********************************************************************************* */
-
+#wrap {
+	max-width: 1000px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+#top-service {
+	margin-right: 15px;
+}
+ul li {
+	list-style-type: none;
+	text-align: left;
+	line-height: 30px;
+}
+#cancelation {
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+}
+#product-logos {
+	margin: 0 auto;
+}
+#eleven-logo {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+#km-logo {
+	padding-top: 20px;
+}
+/*Services page for mobile*/
+@media (max-width: 768px) {
+	#wrap {
+		padding-top: 0;
+	}
+	#cancelation {
+		padding-top: 0;
+		border: none;
+	}
+	.services {
+		border-top: 1px solid #e2e2e2;
+		width: 90%;
+		margin: 0 auto;
+		padding: 0;
+		padding-top: 15px;
+		padding-bottom: 6px;
+	}
+	#top-service {
+		border: none;
+	}
+	#km-logo {
+		padding-top: 0;
+	}
+}
 /*   *******************************************************************************
 	BALAYAGE PAGE
 ********************************************************************************* */
