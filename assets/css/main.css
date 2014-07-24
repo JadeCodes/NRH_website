@@ -80,7 +80,7 @@ h1 {
 	background-color: #fff;
 	border: none;
 	font-family: 'Museo300Regular';
-	font-size: 25px;
+	font-size: 20px;
 	margin-bottom: 0;
 }
 
@@ -111,7 +111,8 @@ li.cent-fix a {
 /*	border-right: #555a5f 1px solid; */
 	padding-top: 0; 
 	padding-bottom: 0;
-	width: 125px;
+	width: 100%;
+	line-height: 35px;
 }
 #last-nav a {
 	border: none;
@@ -120,7 +121,7 @@ li.cent-fix a {
 button {
 	width: 100%;
 	color: #555a5f;
-	font-size: 25px;
+	font-size: 22px;
 }
 
 .navbar-toggle {
@@ -167,7 +168,7 @@ ul {
 h6 {
 	color:#555a5f;
 	font-family: 'Museo300Regular'; 
-	font-size: 18px;
+	font-size: 17px;
 	text-align: center;
 	padding-top: 10px;
 	margin-bottom: 5px;
@@ -191,13 +192,13 @@ p {
 
 }
 #footertext {
-	font-size: 12px;
+	font-size: 10px;
 }
 #footertext a {
 	text-decoration: none;
 	color:#555a5f;
 	font-style: italic;
-	font-size: 12px;
+	font-size: 10px;
 }
 
 #footertext a:hover {
