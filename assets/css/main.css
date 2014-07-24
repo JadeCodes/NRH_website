@@ -32,23 +32,15 @@
 
 }
 
-* {
+/*   *******************************************************************************
+	PAGE LAYOUT
+********************************************************************************* */
+html, body {
+	height: 100%;
 	margin: 0;
 	padding: 0;
 }
 
-html, body {
-	height: 100%;
-}
-
-      /* Wrapper for page content to push down footer */
-      #wrap {
-        min-height: 100%;
-        height: auto !important;
-        height: 100%;
-        /* Negative indent footer by it's height */
-        margin: 0 auto -60px;
-      }
 /*   *******************************************************************************
 	LOGO HEADER
 ********************************************************************************* */
@@ -58,21 +50,6 @@ img {
 	padding-bottom: 15px;
 }
 
-#hero {
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-h1 {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-}
-
-#main-text {
-	padding-left: 70px;
-	padding-right: 70px;
-	font-size: 20px;
-}
 /*   *******************************************************************************
 	NAVIGATION BAR
 ********************************************************************************* */
@@ -83,19 +60,18 @@ h1 {
 	font-size: 20px;
 	margin-bottom: 0;
 }
-
 #navee {
-	list-style:none; 
-	margin:0; 
-	padding:0; 
-	text-align:center;
+	list-style: none; 
+	margin: 0; 
+	padding: 0; 
+	text-align: center;
 }
 #navee li{
-	display:inline;
+	display: inline;
 }
 #navee a {
-	display:inline-block; 
-	padding:0px;
+	display: inline-block; 
+	padding: 0;
 }
 #navee a:hover,
 .current-page a {
@@ -104,26 +80,18 @@ h1 {
 }
 .cent-fix a {
 	color:#555a5f; 
-	font-weight: 100;
-/*	text-transform: uppercase;*/
 }
 li.cent-fix a {
-/*	border-right: #555a5f 1px solid; */
 	padding-top: 0; 
 	padding-bottom: 0;
 	width: 100%;
 	line-height: 35px;
 }
-#last-nav a {
-	border: none;
-}
-
 button {
 	width: 100%;
 	color: #555a5f;
 	font-size: 22px;
 }
-
 .navbar-toggle {
 	border-left: none;
 	border-right: none;
@@ -131,20 +99,52 @@ button {
 	float: none;
 	padding-left: 0;
 	padding-right: 0;
-margin-bottom: 0;
-	margin-top: 0;
+	margin: 0;
+}
+/*Nav bar for tablet & desktop*/
+@media (min-width: 768px) {
+	.navbar {
+		min-height: 0;
+	}
+	li#first-nav {
+		display: none;
+	}	
+	li.cent-fix a  {
+		width: 125px;
+		font-size: 16px;
+	}
+	#navee li {
+		padding-top: 0;
+		padding-bottom: 0;
+		border-right: 1px solid #555a5f;
+	}
+	li#last-nav {
+		border: none;
+	}
 }
 
+/*   *******************************************************************************
+	HERO GRID IMAGE
+********************************************************************************* */
+#hero {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/*Hero grid for tablet & desktop*/
+@media (min-width: 768px){
+	#hero {
+		padding-top: 0;
+	}
+}
 
 /*   *******************************************************************************
 	SOCIAL
 ********************************************************************************* */
 #social {
     border-top: 1px solid #e2e2e2;
-    border-bottom: 1px solid #e2e2e2;
-    margin: 0 auto;
+	margin: 0 auto;
+	width: 90%;
 }
-
 ul {
 	text-align: center;
 	padding: 0;
@@ -155,7 +155,6 @@ ul {
 	font-size: 45px;
 	padding-right: 15px;
 }
-
 #last-social {
 	padding-right: 0;
 }
@@ -173,40 +172,39 @@ h6 {
 	padding-top: 10px;
 	margin-bottom: 5px;
 }
+/*Social for tablet & desktop*/
+@media (min-width: 768px) {
+	.social {
+		font-size: 40px;
+	}
+	h6 {
+		font-size: 16px;
+	}
+}
 
 /*   *******************************************************************************
 	FOOTER
 ********************************************************************************* */
-      /* Set the fixed height of the footer here */
-      /*#push,*/
-      #footer {
-        height: 60px;
-
-/*        padding-right: 70px;
-        padding-left: 70px;*/
-      }
-p {
-	font-family: 'Museo300Regular';
-	color:#555a5f;
-	padding-top: 10px;
-
-}
-#footertext {
-	font-size: 10px;
-}
-#footertext a {
-	text-decoration: none;
-	color:#555a5f;
-	font-style: italic;
-	font-size: 10px;
-}
-
-#footertext a:hover {
-	color:#555a5f;
-	text-decoration: none;
-	font-style: italic;
-}
-
 #copyright {
 	padding-left: 0;
 }
+footer {
+	border-top: 1px solid #e2e2e2;
+}
+.footertext {
+	font-family: 'Museo300Regular';
+	color:#555a5f;
+	padding-top: 8px;
+	font-size: 10px;
+	margin-left: 3px;
+}
+/*Footer for tablet & desktop*/
+@media (min-width: 768px) {
+	#copyright {
+		margin: 0 auto;
+		width: 90%;
+		padding-left: 15px;
+	}
+}
+
+
