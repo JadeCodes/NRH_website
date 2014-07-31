@@ -44,10 +44,14 @@ html, body {
 	line-height: 26px;
 }
 
+img {
+	margin: 0 auto;
+}
+
 /*   *******************************************************************************
 	LOGO HEADER
 ********************************************************************************* */
-img {
+.logo, .grid {
 	margin: 0 auto;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -259,6 +263,10 @@ ul li {
 /*   *******************************************************************************
 	BALAYAGE PAGE
 ********************************************************************************* */
+#balayage-quote {
+	text-align: center;
+	padding-top: 30px;
+}
 
 /*   *******************************************************************************
 	WEDDING PAGE
@@ -267,7 +275,28 @@ ul li {
 /*   *******************************************************************************
 	CONTACT PAGE
 ********************************************************************************* */
+.table-responsive {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 30px;
+}
 
+.map {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+}
+
+#map-container { 
+    height: 280px;
+    border: bold;
+    border-width: 20px;
+    border-color: #fff;
+}
+
+address {
+	line-height: 30px;
+}
 /*   *******************************************************************************
 	SOCIAL
 ********************************************************************************* */
@@ -338,4 +367,23 @@ footer {
 	}
 }
 
+.carousel-control.left, .carousel-control.right {
+	background-image: none;
+	color: #555a5f;
+	width: 30%;
+}
 
+@media (max-width: 1200px) {
+	.carousel-control.left, .carousel-control.right {
+		width: 15%;
+	}
+}
+
+@media (max-width: 768px) {
+	.carousel-control.left, .carousel-control.right {
+		width: 10%;
+		color: #ededed;
+		opacity:1;
+	}
+}
+ 
