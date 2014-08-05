@@ -108,6 +108,16 @@ button {
 	padding-right: 0;
 	margin: 0;
 }
+.navbar-default .navbar-toggle
+ {
+	border-color: #555a5f;
+	background-color: #fff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	background-color: #555a5f;
+	color: #ebebeb;
+}
 /*Nav bar for tablet & desktop*/
 @media (min-width: 768px) {
 	.navbar {
@@ -134,7 +144,7 @@ button {
 	HERO GRID IMAGE
 ********************************************************************************* */
 #hero {
-	padding-top: 10px;
+
 	padding-bottom: 10px;
 }
 /*Hero grid for tablet & desktop*/
@@ -178,9 +188,11 @@ button {
 	}
 	#natasha-img {
 		padding: 0;
+		padding-top: 15px;
+		padding-bottom: 15px;
 		margin-right: 0;
 		margin-left: 0;
-		border-top: 1px solid #e2e2e2;
+		border-top: 1px solid #37393a;
 		width: 90%;
 		margin: 0 auto;
 	}
@@ -189,10 +201,12 @@ button {
 		padding-bottom: 0;
 	}
 	#mobile-hollie {
-		border-top: 1px solid #e2e2e2;
+		border-top: 1px solid #37393a;
 		width: 90%;
 		margin: 0 auto;
 		padding: 0;
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 	h2 {
 		padding-top: 0;
@@ -298,16 +312,17 @@ address {
 	line-height: 30px;
 }
 /*   *******************************************************************************
-	SOCIAL
+	CTA & SOCIAL
 ********************************************************************************* */
 #social {
-    border-top: 1px solid #e2e2e2;
+    border-top: 1px solid #555a5f;
 	margin: 0 auto;
 	width: 90%;
 }
 ul {
 	text-align: center;
 	padding: 0;
+	margin-top: 10px;
 }
 .social {
 	display: inline;
@@ -315,14 +330,28 @@ ul {
 	font-size: 45px;
 	padding-right: 15px;
 }
+hr {
+	margin: 0;
+	border-color: #555a5f;
+}
 #last-social {
 	padding-right: 0;
 }
-.social a {
+.social a,
+.contact a {
 	color:#37393a; 
 }
 .social a:hover {
 	color:#c2aec6; 
+}
+.contact {
+	text-align: center;
+}
+.title-box {
+	line-height: 25px;
+}
+#contact, #some {
+	padding-bottom: 10px;
 }
 h6 {
 	color:#555a5f;
@@ -331,6 +360,10 @@ h6 {
 	text-align: center;
 	padding-top: 10px;
 	margin-bottom: 5px;
+	font-weight: 300;
+}
+.hero-quote {
+	line-height: 25px;
 }
 /*Social for tablet & desktop*/
 @media (min-width: 768px) {
@@ -350,14 +383,24 @@ h6 {
 }
 footer {
 	border-top: 1px solid #e2e2e2;
+	background-color: #37393a;
+	color: #fff;
 }
-.footertext {
-	font-family: 'Museo300Regular';
-	color:#555a5f;
+.footertext1,
+.footertext2,
+.footertext3 {
+	display: inline;
+	font-family: 'Raleway';
+	color:#ebebeb;
 	padding-top: 8px;
-	font-size: 10px;
+	font-size: 11px;
 	margin-left: 3px;
 }
+.footertext2 a {
+	text-decoration: underline;
+	color: #ebebeb;
+}
+
 /*Footer for tablet & desktop*/
 @media (min-width: 768px) {
 	#copyright {
