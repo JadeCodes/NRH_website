@@ -257,6 +257,9 @@ button {
 .spacing {
 	padding-bottom: 15px;
 }
+.spacing a {
+	color: #3d223d;
+}
 ul li {
 	list-style-type: none;
 	text-align: left;
@@ -287,14 +290,19 @@ ul li {
 	#cancelation {
 		padding-top: 0;
 		border: none;
+		margin-top: 0;
 	}
 	.services {
 		border-top: 1px solid #37393a;
 		width: 90%;
 		margin: 0 auto;
 		padding: 0;
-		padding-top: 15px;
+		padding-top: 20px;
 		padding-bottom: 6px;
+	}
+	.special-hair {
+
+		padding-bottom: 15px;
 	}
 	#top-service {
 		border: none;
@@ -306,9 +314,28 @@ ul li {
 /*   *******************************************************************************
 	BALAYAGE PAGE
 ********************************************************************************* */
-#balayage-quote {
-	text-align: center;
-	padding-top: 30px;
+#balayage {
+	font-size: 30px;
+}
+
+#balayage-hair {
+	text-align: left;
+	padding-top: 15px;
+	line-height: 25px;
+}
+p{
+	line-height: 30px;
+}
+p>a, p>a:hover {
+	color: #3d223d;
+}
+#balayage-photos {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #37393a;
+	margin: 0 auto;
+}
+#top {
+	padding-top: 20px;
 }
 
 /*   *******************************************************************************
@@ -392,7 +419,7 @@ hr {
 	color:#37393a;
 }
 h6 {
-	color:#555a5f;
+	color:#37393a;
 	font-family: 'Museo300Regular'; 
 	font-size: 17px;
 	text-align: center;
