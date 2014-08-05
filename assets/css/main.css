@@ -164,6 +164,7 @@ button {
 .natasha-bio,
 .hollie-bio {
 	padding: 0;
+	margin-top:10px;
 }
 .about-us {
 	padding-top: 20px;
@@ -192,14 +193,20 @@ button {
 	background: none;
 	border: 1px solid #37393a;
 }
-
+@media (min-width: 768px) {
+	.btn-default {
+		width: 25%;
+	}
+}
 
 #about-img,
 #hollie-img {
 	margin-left: 60px;
+	margin-top: 30px;
 }
 #natasha-img {
 	margin-right: 60px;
+	margin-top: 30px;
 }
 .hollie-bio {
 	padding-bottom: 20px;
@@ -352,7 +359,15 @@ p>a, p>a:hover {
 #top {
 	padding-top: 5px;
 }
+@media (min-width: 768px) {
+	.balayage {
+		border: none;
+		text-align: center;
+		margin: 0 auto;
+		width: 100%;
+	}
 
+}
 /*   *******************************************************************************
 	WEDDING PAGE
 ********************************************************************************* */
@@ -378,6 +393,14 @@ p>a, p>a:hover {
 	color: #000;
 	margin-top: 100px;
 	bottom: 0;
+}
+@media (min-width: 768px) {
+	.wedding {
+		width: 100%;
+		border: none;
+		margin: 0 auto;
+		padding-top: 35px;
+	}
 }
 /*   *******************************************************************************
 	CONTACT PAGE
