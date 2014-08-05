@@ -385,6 +385,8 @@ footer {
 	border-top: 1px solid #e2e2e2;
 	background-color: #37393a;
 	color: #fff;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 .footertext1,
 .footertext2,
