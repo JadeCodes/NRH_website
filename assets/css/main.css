@@ -290,7 +290,7 @@ ul li {
 	CONTACT PAGE
 ********************************************************************************* */
 .table-responsive {
-	margin-top: 30px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 	margin-right: 30px;
 	border: none;
@@ -312,7 +312,7 @@ ul li {
     border-color: #fff;
 }
 
-.contact-details {
+.contact-details, address {
 	line-height: 30px;
 	margin-bottom: 0;
 	text-align: center;
