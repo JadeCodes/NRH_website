@@ -168,6 +168,32 @@ button {
 .about-us {
 	padding-top: 20px;
 }
+
+.btn-default {
+	display: block;
+	width: 50%;
+	border: 1px solid #37393a;
+	border-radius: 0;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+.cta-button {
+	padding: 10px;
+	margin: 0;
+}
+.cta-button a {
+ color: #37393a;
+
+}
+.cta-button a:hover {
+	text-decoration: underline;
+}
+.btn-default:hover {
+	background: none;
+	border: 1px solid #37393a;
+}
+
+
 #about-img,
 #hollie-img {
 	margin-left: 60px;
