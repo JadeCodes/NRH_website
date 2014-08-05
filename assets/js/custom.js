@@ -18,6 +18,16 @@ $('.js-remove-slide').on('click', function(){
 });
 });
 
+// Swipe on mobile
+  $(document).ready(function() {  
+       $("#carousel-example-generic").swiperight(function() {  
+          $(this).carousel('prev');  
+          });  
+       $("#carousel-example-generic").swipeleft(function() {  
+          $(this).carousel('next');  
+     });  
+  });  
+
 //Google maps
 
 var map;
