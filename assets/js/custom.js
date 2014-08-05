@@ -52,7 +52,7 @@ function initialize() {
   map = new google.maps.Map(document.getElementById('map-container'),
       mapOptions);
 
-        var image = "assets/img/icon-a.png";
+        var image = "assets/img/icon.png";
           var marker = new google.maps.Marker({
             position: ponsonby,
             map: map,
