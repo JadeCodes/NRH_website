@@ -291,14 +291,18 @@ ul li {
 ********************************************************************************* */
 .table-responsive {
 	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	margin-right: 30px;
+	border: none;
+}
+
+#opening-disclosure {
+	margin-top: 15px;
 }
 
 .map {
-	margin-top: 30px;
-	margin-bottom: 30px;
-	margin-left: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 #map-container { 
@@ -308,8 +312,10 @@ ul li {
     border-color: #fff;
 }
 
-address {
+.contact-details {
 	line-height: 30px;
+	margin-bottom: 0;
+	text-align: center;
 }
 /*   *******************************************************************************
 	CTA & SOCIAL
@@ -352,6 +358,9 @@ hr {
 }
 #contact, #some {
 	padding-bottom: 10px;
+}
+.contact-page a {
+	color:#37393a;
 }
 h6 {
 	color:#555a5f;
