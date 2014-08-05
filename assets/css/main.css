@@ -186,7 +186,7 @@ button {
 
 }
 .cta-button a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 .btn-default:hover {
 	background: none;
