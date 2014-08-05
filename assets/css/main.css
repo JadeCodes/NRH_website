@@ -254,6 +254,9 @@ button {
 #top-service {
 	margin-right: 15px;
 }
+.spacing {
+	padding-bottom: 15px;
+}
 ul li {
 	list-style-type: none;
 	text-align: left;
