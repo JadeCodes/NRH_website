@@ -266,8 +266,8 @@ ul li {
 	margin-top: 20px;
 	padding-top: 20px;
 	padding-bottom: 10px;
-	border-top: 1px solid #e2e2e2;
-	border-bottom: 1px solid #e2e2e2;
+	border-top: 1px solid #37393a;
+	border-bottom: 1px solid #37393a;
 }
 #product-logos {
 	margin: 0 auto;
@@ -289,7 +289,7 @@ ul li {
 		border: none;
 	}
 	.services {
-		border-top: 1px solid #e2e2e2;
+		border-top: 1px solid #37393a;
 		width: 90%;
 		margin: 0 auto;
 		padding: 0;
