@@ -154,6 +154,31 @@ button {
 	}
 }
 
+.main-text {
+	padding-top: 55px;
+}
+
+#main-title {
+	font-size: 25px;
+}
+
+.image-border {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.p-spacing {
+	padding-bottom: 15px;	
+}
+
+#booking {
+	width: 200px;
+}
+
+#booking:hover {
+	border-color: #c2aec6;
+	background-color: #c2aec6;
+}
 /*   *******************************************************************************
 	ABOUT PAGE
 ********************************************************************************* */
@@ -439,7 +464,8 @@ p>a, p>a:hover {
 #social {
     border-top: 1px solid #555a5f;
 	margin: 0 auto;
-	width: 90%;
+	width: 100%;
+	background-color: #ebebeb;
 }
 ul {
 	text-align: center;
@@ -469,6 +495,7 @@ hr {
 .contact {
 	text-align: center;
 }
+
 .title-box {
 	line-height: 25px;
 }
@@ -489,11 +516,18 @@ h6 {
 }
 .hero-quote {
 	line-height: 25px;
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
 }
 /*Social for tablet & desktop*/
 @media (min-width: 768px) {
 	.social {
-		font-size: 40px;
+		font-size: 40px;	
+	}
+	#social {
+		border-top: 1px solid #E6E9EB;
 	}
 	h6 {
 		font-size: 16px;
@@ -532,7 +566,7 @@ footer {
 @media (min-width: 768px) {
 	#copyright {
 		margin: 0 auto;
-		width: 90%;
+		width: 100%;
 		padding-left: 15px;
 	}
 }
