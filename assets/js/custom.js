@@ -1,23 +1,3 @@
-// Slick slider
-  $(document).ready(function(){
-$('.add-remove').slick({
-  slidesToShow: 3,
-  slidesToScroll: 3
-});
-var slideIndex = 1;
-$('.js-add-slide').on('click', function(){
-  slideIndex++;
-  $('.add-remove').slickAdd('<div><h3>'+slideIndex+'</h3></div>');
-});
-
-$('.js-remove-slide').on('click', function(){
-  $('.add-remove').slickRemove(slideIndex - 1);
-  if (slideIndex !== 0) {
-    slideIndex--;
-  }
-});
-});
-
 // Swipe on mobile
   $(document).ready(function() {  
        $("#carousel-example-generic").swiperight(function() {  
