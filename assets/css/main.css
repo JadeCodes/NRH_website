@@ -178,7 +178,7 @@ button {
 	.p-spacing {
 	padding-bottom: 15px;	
 	}
-	#booking {
+	div.booking {
 		margin-top: 15px;
 	}
 	.main-text {
@@ -188,12 +188,12 @@ button {
 	}
 }
 
-#booking {
+div.booking {
 	width: 200px;
 	margin-top: 15px;
 }
 
-#booking:hover {
+div.booking:hover {
 	border-color: #c2aec6;
 	background-color: #C8B3CC;
 }
@@ -278,7 +278,7 @@ button {
 		width: 90%;
 		margin: 0 auto;
 		padding: 0;
-		padding-top: 20px;
+		padding-top: 15px;
 		padding-bottom: 10px;
 	}
 	h2 {
