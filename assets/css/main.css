@@ -202,15 +202,14 @@ button {
 ********************************************************************************* */
 #about-page {
 	font-size: 16px;
+	margin-bottom: 20px;
+	margin-top: 10px;
 }
-.about-us,
+
 .natasha-bio,
 .hollie-bio {
 	padding: 0;
 	margin-top:10px;
-}
-.about-us {
-	padding-top: 20px;
 }
 
 .btn-default {
@@ -242,12 +241,11 @@ button {
 	}
 }
 
-#about-img,
-#hollie-img {
+#natasha-img {
 	margin-left: 60px;
 	margin-top: 30px;
 }
-#natasha-img {
+#hollie-img {
 	margin-right: 60px;
 	margin-top: 30px;
 }
@@ -256,15 +254,15 @@ button {
 }
 /*About page for mobile*/
 @media (max-width: 768px) {
-	.about-us,
 	.natasha-bio,
 	.hollie-bio {
 		padding: 15px;
 		padding-top: 0;
+		padding-bottom: 20px;
 	}
-	#natasha-img {
+	#hollie-img {
 		padding: 0;
-		padding-top: 15px;
+		padding-top: 30px;
 		padding-bottom: 15px;
 		margin-right: 0;
 		margin-left: 0;
@@ -272,24 +270,20 @@ button {
 		width: 90%;
 		margin: 0 auto;
 	}
-	img #mobile-hollie {
+	img #mobile-natasha {
 		padding: 0;
 		padding-bottom: 0;
 	}
-	#mobile-hollie {
-		border-top: 1px solid #37393a;
+	#mobile-natasha {
 		width: 90%;
 		margin: 0 auto;
 		padding: 0;
-		padding-top: 25px;
-		padding-bottom: 20px;
+		padding-top: 20px;
+		padding-bottom: 10px;
 	}
 	h2 {
 		padding-top: 0;
 		margin-top: 0;
-	}
-	.about-us {
-		margin-top: 15px;
 	}
 }
 
