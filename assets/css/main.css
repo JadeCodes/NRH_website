@@ -145,7 +145,7 @@ button {
 ********************************************************************************* */
 #hero {
 
-	padding-bottom: 10px;
+	padding-bottom: 18px;
 }
 /*Hero grid for tablet & desktop*/
 @media (min-width: 768px){
