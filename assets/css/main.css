@@ -141,7 +141,7 @@ button {
 }
 
 /*   *******************************************************************************
-	HERO GRID IMAGE
+	HOME PAGE
 ********************************************************************************* */
 #hero {
 
@@ -152,11 +152,14 @@ button {
 	#hero {
 		padding-top: 0;
 	}
+	.main-text {
+		padding-right: 0;
+		padding-left: 0;
+		padding-top: 50px;
+		margin-right: 20px;
+	}
 }
 
-.main-text {
-	padding-top: 55px;
-}
 
 #main-title {
 	font-size: 25px;
@@ -168,19 +171,34 @@ button {
 }
 
 .p-spacing {
+	padding-bottom: 10px;	
+}
+
+@media (min-width: 1280px){
+	.p-spacing {
 	padding-bottom: 15px;	
+	}
+	#booking {
+		margin-top: 15px;
+	}
+	.main-text {
+		padding-top: 55px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
 }
 
 #booking {
 	width: 200px;
+	margin-top: 15px;
 }
 
 #booking:hover {
 	border-color: #c2aec6;
-	background-color: #c2aec6;
+	background-color: #C8B3CC;
 }
 /*   *******************************************************************************
-	ABOUT PAGE
+	STYLIST PAGE
 ********************************************************************************* */
 #about-page {
 	font-size: 16px;
@@ -478,6 +496,10 @@ ul {
 	font-size: 45px;
 	padding-right: 15px;
 }
+#border {
+	width: 90%;
+	margin: 0 auto;
+}
 hr {
 	margin: 0;
 	border-color: #555a5f;
@@ -499,6 +521,9 @@ hr {
 .title-box {
 	line-height: 25px;
 }
+.social-box {
+	line-height: 30px;
+}
 #contact, #some {
 	padding-bottom: 10px;
 }
@@ -514,12 +539,20 @@ h6 {
 	margin-bottom: 5px;
 	font-weight: 300;
 }
-.hero-quote {
+.hero {
 	line-height: 25px;
 	margin-top: 0;
-	padding-top: 0;
-	padding-bottom: 15px;
-	margin-bottom: 10px;
+	padding-top: 25px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+.quote {
+	line-height: 25px;
+	margin-top: 0;
+	padding-top: 20px;
+	margin-bottom: 5px;
+	text-align: center;
+
 }
 /*Social for tablet & desktop*/
 @media (min-width: 768px) {
