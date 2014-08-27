@@ -243,14 +243,15 @@ div.booking:hover {
 
 #natasha-img {
 	margin-left: 60px;
-	margin-top: 30px;
+	margin-top: 40px;
 }
 #hollie-img {
 	margin-right: 60px;
-	margin-top: 30px;
+	margin-top: 40px;
 }
 .hollie-bio {
 	padding-bottom: 20px;
+	padding-top: 10px;
 }
 /*About page for mobile*/
 @media (max-width: 768px) {
@@ -259,6 +260,9 @@ div.booking:hover {
 		padding: 15px;
 		padding-top: 0;
 		padding-bottom: 20px;
+	}
+	.hollie-bio {
+		padding-bottom: 0px;
 	}
 	#hollie-img {
 		padding: 0;
@@ -278,8 +282,8 @@ div.booking:hover {
 		width: 90%;
 		margin: 0 auto;
 		padding: 0;
-		padding-top: 15px;
-		padding-bottom: 10px;
+		padding-top: 8px;
+		padding-bottom: 5px;
 	}
 	h2 {
 		padding-top: 0;
@@ -303,6 +307,10 @@ div.booking:hover {
 }
 .spacing a {
 	color: #3d223d;
+	text-decoration: underline;
+}
+.spacing a:hover {
+	font-style: italic;
 }
 ul li {
 	list-style-type: none;
@@ -318,6 +326,8 @@ ul li {
 }
 #product-logos {
 	margin: 0 auto;
+	padding-bottom: 20px;
+	padding-top: 10px;
 }
 #eleven-logo {
 	padding-top: 30px;
@@ -335,6 +345,10 @@ ul li {
 		padding-top: 0;
 		border: none;
 		margin-top: 0;
+	}
+	#product-logos {
+		padding-bottom: 0;
+		padding-top: 0;
 	}
 	.services {
 		border-top: 1px solid #37393a;
@@ -390,6 +404,9 @@ p{
 p>a, p>a:hover {
 	color: #3d223d;
 }
+#bottom {
+	padding-bottom: 12px;
+}
 #balayage-photos {
 	margin: 0 auto;
 }
@@ -423,6 +440,7 @@ p>a, p>a:hover {
 	margin-top: 35px;
 	width: 90%;
 	border-top: 1px solid #37393a;
+
 }
 
 .carousel-indicators {
@@ -436,7 +454,11 @@ p>a, p>a:hover {
 		width: 100%;
 		border: none;
 		margin: 0 auto;
-		padding-top: 35px;
+		padding-top: 15px;
+		text-align: center;
+	}
+	#wedding-main {
+		padding-bottom: 15px;
 	}
 }
 /*   *******************************************************************************
@@ -452,7 +474,11 @@ p>a, p>a:hover {
 #opening-disclosure {
 	margin-top: 15px;
 }
-
+@media (min-width: 768px) {
+#main-contact {
+	padding-top: 15px;
+}
+}
 .map {
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -467,7 +493,7 @@ p>a, p>a:hover {
 
 .contact-details, address {
 	line-height: 30px;
-	margin-bottom: 0;
+	margin-bottom: 15px;
 	text-align: center;
 }
 /*   *******************************************************************************
